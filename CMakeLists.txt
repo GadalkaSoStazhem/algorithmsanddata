@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.23)
+project(algorithmsanddata)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(algorithmsanddata main.cpp)
+add_executable(lect1 lecture1/insertionsort.cpp)
+add_executable(binarysearch lecture2/binarysearch.cpp)
+add_executable(selectionsort lecture2/selectionsort.cpp)
+add_executable(bubblesort lecture2/bubblesort.cpp)
+add_executable(swamppebblesort lecture2/swamppebblesort.cpp)
+add_executable(insertionsort lecture2/insertionsort_same.cpp)
+add_executable(quicksort lecture2/quicksort.cpp)
+add_executable(mergesort lecture2/mergesort.cpp)
+add_executable(combsort lecture2/combsort.cpp)
