@@ -11,5 +11,7 @@ add_executable(bubblesort lecture2/bubblesort.cpp)
 add_executable(swamppebblesort lecture2/swamppebblesort.cpp)
 add_executable(insertionsort lecture2/insertionsort_same.cpp)
 add_executable(quicksort lecture2/quicksort.cpp)
-add_executable(mergesort lecture2/mergesort.cpp)
 add_executable(combsort lecture2/combsort.cpp)
+add_executable(mergesort lecture3/mergesort.cpp)
+
+add_executable(heap lecture4/heap.cpp)
