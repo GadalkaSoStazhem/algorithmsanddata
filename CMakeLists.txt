@@ -13,5 +13,7 @@ add_executable(insertionsort lecture2/insertionsort_same.cpp)
 add_executable(quicksort lecture2/quicksort.cpp)
 add_executable(combsort lecture2/combsort.cpp)
 add_executable(mergesort lecture3/mergesort.cpp)
-
 add_executable(heap lecture4/heap.cpp)
+add_executable(qsort1 lecture5/quick_sort_lecture.cpp)
+add_executable(qsort2 lecture5/quicksort_optimized1.cpp)
+add_executable(qsort3 lecture5/quicksort_optimized2.cpp)
